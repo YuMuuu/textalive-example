@@ -1,0 +1,20 @@
+{
+  "name": "githubpages-tempalate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:YuMuuu/githubpages-tempalate.git",
+  "author": "@curelemonade2",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "babel-plugin-transform-react-pug": "^7.0.1",
+    "node-sass": "^4.13.1",
+    "parcel": "^1.12.4",
+    "pug": "^2.0.4",
+    "sass": "^1.26.2"
+  },
+  "scripts": {
+    "dev": "parcel src/index.pug -p 8080",
+    "build": "rm src.* && parcel build ./src/index.pug --out-dir ./"
+  }
+}
