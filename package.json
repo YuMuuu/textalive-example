@@ -10,7 +10,6 @@
     "babel-plugin-transform-react-pug": "^7.0.1",
     "node-sass": "^4.13.1",
     "parcel": "^1.12.4",
-    "pug": "^2.0.4",
     "sass": "^1.26.2"
   },
   "scripts": {
