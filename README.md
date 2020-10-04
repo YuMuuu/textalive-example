@@ -1,17 +1,22 @@
-# github pagesに最速で公開するためのテンプレート
+# text-aliveのおためし＆＆開発効率化をするリポジトリ
 
-## 初期設定
-- yarn install
 
-- pre-commit(commit時に自動でbuild出来るように設定する)
-``` 
-sh pre-commit-setting.sh
-```
+# setting 
+## need
+- yarn
+- node.js
 
-- gh-pages branchを作る 
-```
-git checkout -b gh-pages
-```
 
-## メモ
-github pagesにはroutingがない（？）のでカレントディレクトリにhtml,js,css出力するようにしています。また/src以下のファイルに変更が無い場合でも現状毎回commit時にbuildが走るようになっています
+- netlify and github actions setting
+
+   see: <https://qiita.com/nwtgck/items/e9a355c2ccb03d8e8eb0>
+
+
+## develop
+- yarn dev 
+- open http:localhost:8080
+
+## build 
+- yarn build
+
+
