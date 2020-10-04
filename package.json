@@ -13,6 +13,6 @@
   },
   "scripts": {
     "dev": "parcel src/index.html -p 8080",
-    "build": "rm src.* && parcel build ./src/index.html --out-dir ./"
+    "build": "parcel build ./src/index.html --out-dir ./dist"
   }
 }
